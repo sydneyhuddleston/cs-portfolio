@@ -1,24 +1,64 @@
-body {
-    background-color: powderblue;
+#navbar
+{
+  background-color: ;
+   text-align: center
 }
+#navbar li{
+  display:inline-block;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: yellow;
+
+    
+}
+body {
+    background-color: gray;
+    width: 1080px;
+    border: 25px solid yellow;
+    padding: 100px;
+    margin: 10px;
+}
+    
+
 h1 {
-    color: black;
+    color: darkblue;
     font-family: "Verdana", Times, serif;
+    width: 25px;
+    /*border: 25px solid green;*/
+    /*padding: 25px;*/
+    margin: 25px;
+    
 }
 
 h3 {
-    color: black;
+    color: white;
     font-family: "Verdana", Times, serif;
     font-style: oblique;
     
 }
 
 h2 {
-    color: black;
+    color: white;
     font-family: "Verdana", Times, serif;
 }
 p {
-    color: black;
+    color: white;
     font-family: "Georgia", Times, serif;
     font-size: 18px;
 }
+#hardwareTitle{
+    display: inline-block;
+    width: 300px;
+    border: 1px solid yellow;
+    text-align: center;
+    position: relative;
+    left:33%;
+}
+
+img:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
