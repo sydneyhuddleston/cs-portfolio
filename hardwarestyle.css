@@ -1,0 +1,24 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: black;
+    font-family: "Verdana", Times, serif;
+}
+
+h3 {
+    color: black;
+    font-family: "Verdana", Times, serif;
+    font-style: oblique;
+    
+}
+
+h2 {
+    color: black;
+    font-family: "Verdana", Times, serif;
+}
+p {
+    color: black;
+    font-family: "Georgia", Times, serif;
+    font-size: 18px;
+}
