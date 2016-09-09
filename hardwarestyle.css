@@ -1,6 +1,6 @@
 #navbar
 {
-  background-color: ;
+  /*background-color: ;*/
    text-align: center
 }
 #navbar li{
@@ -61,4 +61,7 @@ img:hover {
     opacity: 0.2;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
-
+.row > *{
+    display:inline-block;
+    vertical-align: top
+}
