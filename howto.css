@@ -1,0 +1,40 @@
+#navbar
+{
+  /*background-color: ;*/
+   text-align: center
+}
+#navbar li{
+  display:inline-block;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: yellow;
+}
+
+body {
+    background-color: black;
+    width: 1080px;
+    border: 25px solid blue;
+    padding: 100px;
+    margin: 10px;
+}
+
+p{
+    color: white;
+    font-family: "Verdana", Times, serif;
+}
+
+h1{
+    color: white;
+    font-family: "Verdana", Times, serif;
+}
+h3{
+    color: white;
+    font-family: "Verdana", Times, serif;
+    font-style: oblique;
+}
+ul{
+    color: white;
+    font-family: "Verdana", Times, serif;
+}
