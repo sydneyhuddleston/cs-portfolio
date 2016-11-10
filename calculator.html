@@ -1,15 +1,51 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title> Calculator</title></title>
-    <link rel="stylesheet" href= "calculatorc.css">
+    <link rel="stylesheet" href= "calculatorstyle.css">
 </head>
+<!--<script type="text/javascript" src="calculatorj.cs"></script>-->
 <body>
-    <p>
-        <center>
-            Calculator
-        </center>
-    </p>
+    <!--Navbar Starts Here -->
+  <ul id="navbar">
+    <li> <a href="index.html"> About Me </a></li>
+    <li> <a href="hardware.html"> Hardware </a></li>
+    <li> <a href="howto.html"> How-to: Hardware Page </a></li>
+    <li> <a href="calculator.html"> Calculator </a></li>
+    <li> <a href="todolist.html"> Todo List </a></li>
+    <li> <a href="howtocalculator.html"> How-to: Calculator </a></li>
+    <li> <a href="#"> Big Project </a></li>
+    <li> <a href="#"> Vindinium </a></li>
+  </ul>
+<!--Navbar Ends Here -->
+  
+  <!--Calculator Starts Here-->
+ <center> <h1> Calculator</h1> </center> 
+ <center>
+
+<input type="number" id="num1input">
+<select id="selectOperator">
+    <option value="plus"> + </option>
+    <option value="minus"> - </option>
+    <option value="multiply"> * </option>
+    <option value="divide"> / </option>
+    <option value="modulus"> % </option>
+    <option value="exponent"> ^ </option> 
+</select>
+
+
+<input type= "number" id="num2input">
+
+<input type="button" id="solve" value="Solve">
+
+<!--<output type="number" id="answer" value="answer">-->
+
+<br> <center> 
+<div id="answer">  Answer  </div>
+
+
+<!--Calculator Ends Here-->
+   
+    
+    <script type="text/javascript" src="calculatorjavascript.js"></script>
 </body>
 </html>
