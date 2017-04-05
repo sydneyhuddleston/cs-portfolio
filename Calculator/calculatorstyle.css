@@ -1,0 +1,78 @@
+/* navbar css starts here */
+#navbar 
+{
+  text-align: center
+}
+#navbar li{
+  display:inline-block;
+  padding: 2px;
+  margin-top: 18px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 0px;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+  border-bottom-color: #66B9BF;
+  border-top-style: double;
+  border-top-width: 5px;
+  padding-top: 0px;
+  border-top-color: #66B9BF;
+}
+ /* the code below functions when NavBar is clicked, hovered on, etc. */
+a:link, a:visited {
+    background-color: #E37222;
+    color: #07889B;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* hover on link */
+a:hover {
+    color: #E37222;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #EEAA7B;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #66B9BF;
+}
+
+
+
+/* navbar css ends here */
+
+/* calculator css begins here */
+
+
+#calculator
+/* color of the answer div */
+#answer{
+  color:#E37222;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+  
+}
+ 
+/* color and padding of the background */
+body {
+    background-color: #D0CDC6;
+    width: 1040px;
+    border: 25px solid #66B9BF;
+    padding: 130px;
+    margin: 10px;
+}
+
+/* color of the heading */
+h1 {
+  font-style: normal;
+  color: #E37222;
+}

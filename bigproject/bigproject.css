@@ -1,0 +1,52 @@
+/* navbar css begins here */
+#navbar
+{
+   text-align: center
+}
+#navbar li{
+  display:inline-block;
+  padding: 0px;
+  margin-top: 18px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 0px;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+  border-bottom-color: #94947D;
+  border-top-style: double;
+  border-top-width: 5px;
+  padding-top: 0px;
+  border-top-color: #94947D;
+}
+a:link, a:visited {
+    background-color: #333B35;
+    color: #D6D4CC;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* hover on link */
+a:hover {
+    color: #333B35;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #D6D4CC;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #D6D4CC;
+}
+
+body {
+    background-color: #070517;
+}
+
+h1 {
+    color: #F7F5EC;
+}

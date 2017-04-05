@@ -1,0 +1,101 @@
+/* navbar css begins here */
+#navbar
+{
+   text-align: center
+}
+#navbar li{
+  display:inline-block;
+  padding: 0px;
+  margin-top: 18px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 0px;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+  border-bottom-color: #ED3101;
+  border-top-style: double;
+  border-top-width: 5px;
+  padding-top: 0px;
+  border-top-color: #ED3101;
+}
+
+
+/* unvisited link */
+/* a:link {*/
+/*    color: #062F4F;*/
+/*    text-decoration: none; */
+/*} */
+
+/* visited link */
+/* a:visited {*/
+/*    color: #062F4F;*/
+/*    text-decoration: none;*/
+/*}*/
+
+a:link, a:visited {
+    background-color: #062F4F;
+    color: #D4409E;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* hover on link */
+a:hover {
+    color: #ED3101;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #ED3101;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #2C4B6D;
+}
+
+
+/* navbar css ends here */
+
+/* document css begins here */
+
+body {
+    background-color: black;
+}
+/* document css ends here */
+
+/* font css begins here */
+h1 {
+    color: white;
+    /*color: #______;*/
+    font-family: Century Gothic, sans-serif;
+    font-weight: bolder;    
+}
+h2 {
+    color: #ED3101;
+    font-family: Century Gothic, sans-serif;
+    font-size: 160%;
+}
+
+h3 {
+    color:#D4409E;
+    font-family: Century Gothic, sans-serif;
+}
+
+p {
+    font-family: Century Gothic, sans-serif;
+    font-size: 125%;
+}
+
+/* font css ends here */
+
+/* img css begins here */
+/* img {
+   padding:0px;
+   border:2px solid #D4669E;
+   background-color:#D4669E;
+} 
+/* img css ends here */

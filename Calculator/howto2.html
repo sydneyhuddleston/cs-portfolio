@@ -1,0 +1,130 @@
+<! DOCTYPE>
+<html>
+    <head>
+        <link rel="stylesheet" href="howto2.css" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        
+    <img src="logo.png" alt="logo.png" class="jpg" align="left" style="width:100px;height:100px;">
+
+
+<!-- navbar css begins here --!> 
+    <!--Navbar Starts Here -->
+  <ul id="navbar">
+      <li> <a href="index.html"> About Me </a></li>
+      <li> <a href="hardware.html"> Hardware </a></li>
+      <li> <a href="howto.html"> How-to Page </a></li>
+      <li> <a href="calculator.html"> Calculator </a></li>
+      <li> <a href="todolist.html"> Todo List </a></li>
+      <li> <a href="howto2.html"> How-to Page Two </a></li>
+      <li> <a href="vindinium.html"> Vindinium </a></li>
+      <li> <a href="#"> Big Project </a></li>
+    </ul>
+<!--Navbar Ends Here -->
+
+
+<h1>
+    <center>
+        How-To Make a Calculator
+    </center>
+</h1>
+<h4>
+    <center>
+        Using HTML, Javascript, and CSS
+    </center>
+</h4>
+<h2>
+    What can my Calculator do?
+</h2>
+<p1>
+    My calculator can add, subtract, multiply, divide, calculate exponents and percentages based on the two values entered and the chosen operation. 
+</p1>
+<h2>
+    How can you make this calculator?
+</h2>
+<p2>
+    This calculator was created in three sections: HTML, then Javascript, then CSS. Below the instructions for each section is an image of my full code with comments that indicate which step was completed.
+</p2>
+<h4>
+    HTML
+</h4>
+<p3>
+    <ol type="1">
+<li> Set up HTML document in proper HTML format. </li>
+<li> Link your CSS document to HTML document. </li>
+<li> Create a heading that will help the user identify your page. I used the &lth1&gt and &ltcenter&gt tags to add the phrase "Sydney's Calculator". </li>
+<li> Insert the input text box. This can be done using the &ltinput&gt tag. Within the tag, identify the type of input and create an ID for the input box. The input will be a number and your ID can be anything you want. You will use this ID in the Javascript Section.</li>
+<li> Insert a dropdown menu for your different operations using the &ltselect&gt tag. Within this tag, create an ID as you did in the step above. Using the &ltoption&gt tag, create an option for each operation. </li>
+<li> Identify option values in list form. Make sure you do not have more than one operation per option. This list determines the order the user will view the operations in, from top to bottom. </li>
+<li> Insert Second Input text box. Use the same method as the first input box, using the &ltinput&gt tag. Like the first box, the value of the input will be numbers. Be sure to not make the ID of the second box identical to that of the first. </li>
+<li> Create the "Solve" button that will be clicked when the user has inputted the desired information. Using the same &ltinput&gt tag, create a unique ID for the button that has not been used previously. The value of the button will be "solve". </li>
+<li> Use the &ltdiv&gt tag to create a div for your button. Create a unique ID for the div within the tag. </li>
+<li> Link your javascript to your HTML document using the script tag. The type is "javascript" and the source is the name of your Javascript Document. </li>
+<li> Be sure to proofread your code, making sure all tags are closed and there are not two different values with the same ID name. </li>
+</ol>
+</p3>
+<center>
+<img src="21.png" alt="21.jpg" class="jpg" align="middle">
+<img src="22.png" alt="22.jpg" class="jpg" align="middle">
+<img src="23.png" alt="23.jpg" class="jpg" align="middle">   
+</center>
+
+
+<h4>
+    Javascript
+</h4>
+<p4>
+    <ol type="1">
+<li> Define all variables using the getElementById method. The format should read: var name = getElementById(HTML ID Name). Do this for all HTML buttons and text boxes that have an ID. </li>
+<li> Use the addEventListener method to activate the Solve button. </li>
+<li> Create a new variable for each text box. Because we do not know exactly what the user will input, it is a variable. using the parseInt </li>
+<li> Create a variable for the dropdown menu. </li>
+<li> Create if-statements for each of the potential dropdown menu options. The format for an if-statement is seen in the image on the left below. The condition determines which dropdown option will be used. The codeblock determines what to do if this option is selected. The format of the codeblock is: div id .innerhtml = value 1 operation value 2. Complete this process for all dropdown menu options. </li>
+<li> Your calculator should now be functioning. </li>
+</ol>
+</p4>
+
+<center> 
+<img src="31.png" alt="31.png" class="jpg" align="middle">
+<img src="32.png" alt="32.png" class="jpg" align="middle">
+</center>
+
+
+<h4>
+    CSS
+</h4>
+<p5>
+    Your new calculator page can be styled in any way you like. The image below displays the CSS I used to add color to my page and Navigation Bar. I used unique colors, first finding the perfect shade in Adobe Kuler. I then used the number ID provided by this service to identify my color in the CSS document. My Navigation Bar has special colors that are displayed when it is clicked on, hovered over, and at rest.
+</p5>
+<center>
+    <img src="41.png" alt="41.png" class="jpg" align="middle">
+    <img src="42.png" alt="42.png" class="jpg" align="middle">
+    <img src="43.png" alt="43.png" class="jpg" align="middle">
+</center>
+
+
+<h4>
+    Optional Steps
+</h4>
+<p6>
+    <ol type="1">
+        <li>
+            <p7>
+            If you have a Navigation Bar, you can insert it above the "Create Heading" step in the HTML Section. The image below shows the HTML that created my Navigation Bar.
+            </p7>
+        </li>
+        <center>
+                    <img src="nvb.png" alt="nvb.png" class="jpg" align="middle">
+        </center>
+        <li>
+            <p8>
+            To the left of my Navigation Bar, I have my personal website logo. It can be inserted using the &ltimg&gt tag. The image below shows the exact code I used to display my image.
+            </p8>        
+        </li>
+        <center>
+            <img src="img.png" alt="img.png" class="jpg" align="middle">
+        </center>
+    </ol>
+</p6>

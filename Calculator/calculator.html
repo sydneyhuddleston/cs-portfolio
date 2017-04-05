@@ -1,0 +1,70 @@
+<!-- the HTML heading goes here -->
+<! DOCTYPE>
+<html>
+    <head>
+
+<!-- Link to the CSS document is here -->
+        <link rel="stylesheet" href="calculatorstyle.css" type="text/css" />
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+
+ <!-- my personal logo is inserted here -->
+    <img src="logo.jpg" alt="logo.jpg" class="jpg" align="left" style="width:100px;height:100px;">
+
+
+<!-- navbar html begins here --!> 
+                <!--Navbar Starts Here -->
+  <ul id="navbar">
+      <li> <a href="index.html"> About Me </a></li>
+      <li> <a href="hardware.html"> Hardware </a></li>
+      <li> <a href="howto.html"> How-to Page </a></li>
+      <li> <a href="calculator.html"> Calculator </a></li>
+      <li> <a href="todolist.html"> Todo List </a></li>
+      <li> <a href="howto2.html"> How-to Page Two </a></li>
+      <li> <a href="vindinium.html"> Vindinium </a></li>
+      <li> <a href="#"> Big Project </a></li>
+    </ul>
+<!--Navbar Ends Here -->
+  
+            <!--Calculator HTML Starts Here-->
+  
+<!-- This is my heading or title for the page that the user will see --> 
+ <center> <h1> Sydney's Calculator</h1> </center> 
+
+<center> 
+
+<!-- this is the first input box -->
+<input type="number" id="num1input">
+
+<!-- this is the dropdown menu -->
+<select id="selectOperator">
+    <option value="plus"> + </option>
+    <option value="minus"> - </option>
+    <option value="multiply"> * </option>
+    <option value="divide"> / </option>
+    <option value="modulus"> % </option>
+    <option value="exponent"> ^ </option> 
+</select>
+ 
+<!-- this is the second input box -->
+<input type= "number" id="num2input">
+
+<!-- this is the button the user will click to solve the equation they entered -->
+<input type="button" id="solve" value="Solve">
+
+</center>
+
+<!-- this is the div for the answer of the equation to show up -->
+<center>
+    <div id="answer">  Answer </div>
+</center>
+
+                <!--Calculator Ends Here-->
+   
+<!-- the javascript document is linked here -->
+    <script type="text/javascript" src="calculatorjavascript.js"></script>
+</body>
+</html>

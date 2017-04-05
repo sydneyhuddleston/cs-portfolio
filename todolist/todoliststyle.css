@@ -1,0 +1,127 @@
+/* navbar css starts here */
+body {
+    background-color: black;
+    border: 5px dashed white;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+    border
+}
+
+#navbar 
+{
+  text-align: center
+}
+#navbar li{
+  display:inline-block;
+  padding: 2px;
+  margin-top: 30px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 0px;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
+  border-bottom-color: #ED3101;
+  border-top-style: double;
+  border-top-width: 5px;
+  padding-top: 0px;
+  border-top-color: #ED3101;
+}
+
+a:link, a:visited {
+    background-color: #062F4F;
+    color: #D4409E;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* hover on link */
+a:hover {
+    color: #ED3101;
+    text-decoration: none;
+}
+
+/* div text hover */
+li:hover {
+    color: white;
+    text-decoration: line-through;
+}
+
+a:hover, a:active {
+    background-color: #2C4B6D;
+}
+
+
+
+/* navbar css ends here */
+
+  
+p {
+   border-top-style:dotted; 
+   border-top-color: white;
+   border-bottom-style:dotted;
+   border-bottom-color: white;
+   border-right-style: dotted;
+   border-right-color: white;
+   border-left-style: dotted;
+   border-left-color: white
+ }
+ 
+ fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+ul {
+    font-family: Century Gothic, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 0px;
+}
+
+#option1 {
+    color: red;
+}
+
+#option2 {
+    color: orange;
+}
+
+#option3 {
+    color: yellow;
+}
+
+#option4 {
+    color: green;
+}
+
+#option5 {
+    color: blue;
+}
+
+#option6 {
+    color: purple;
+}
+
+h1 {
+    color: white;
+    font-family: Century Gothic, sans-serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+}
+
+
+
+
+
