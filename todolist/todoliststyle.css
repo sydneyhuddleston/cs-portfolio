@@ -1,10 +1,10 @@
 /* navbar css starts here */
 body {
     background-color: black;
-    border: 5px dashed white;
-    border-bottom-style: dashed;
-    border-top-style: dashed;
-    border
+    width: 1040px;
+    border: 25px dashed white;
+    padding: 120px;
+    margin: 10px;
 }
 
 #navbar 

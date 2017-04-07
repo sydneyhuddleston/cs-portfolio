@@ -7,6 +7,7 @@ var taskEntered = enter.value;
 var enterTwo = document.getElementById("enterTwo");
 
 var dropdownMenu = document.getElementById("selectOperator");
+
 var newAllTasks =  document.getElementById("newAllTasks");
 
 

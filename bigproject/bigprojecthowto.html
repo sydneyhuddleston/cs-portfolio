@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+   <head> 
+    <link rel="stylesheet" href="bigprojecthowto.css">
+    </head>
+        
+    <title>
+        bigproject.html
+    </title>
+    <body>
+    
+    <!-- Navbar Starts Here -->
+  <ul id="navbar">
+    <li> <a href="index.html"> About Me </a></li>
+    <li> <a href="hardware.html"> Hardware </a></li>
+    <li> <a href="howto.html"> How-to: Hardware Page </a></li>
+    <li> <a href="calculator.html"> Calculator </a></li>
+    <li> <a href="todolist.html"> Todo List </a></li>
+    <li> <a href="howtocalculator.html"> How-to: Calculator Page </a></li>
+    <li> <a href="vindinium.html"> Vindinium </a></li>
+    <li> <a href="bigproject.html"> Big Project </a></li>
+    <li> <a href="#"> How-to: Big Project </a></li>
+  </ul>
+<!-- Navbar Ends Here -->
+<center>
+    <img src="cap.png" alt="cap.png" class="png" style="width:1000px; height:420.5px;">
+</center>
+<center>
+<h1>
+    <center>
+       The Javascript Behind Making a Countdown Clock
+    </center>
+</h1>
+
+<h3>
+    What is a countdown clock?
+</h3>
+<p>
+    A countdown clock is a timer that can count down by seconds to a desired date from the current moment in time.
+</p>
+<h3>
+    Why did I make a countdown clock?
+</h3>
+<p>
+    I made a countdown clock to count down to the day of my graduation because I am excited for the event. 
+</p>
+</center>
+
+
+<h3>
+    <center>
+        Javascript Instructions
+    </center>
+</h3>
+<ol>
+    <li> Below is an image of my full code along with comments that indicate where each step was executed. It may be helpful to use it as a guide when reading these instructions if you would like a visual. </li>
+  <li> Identify the desired countdown date by creating a variable to represent it. Your date should be formatted as such: first three letters of month name then day of month then comma then year then exact time in hours:minutes:seconds. The newDate() object will initiate this date. The .getTime() method will calculate the number of milliseconds at this moment in time.</li>
+  <li> Identify when you want your countdown to refresh. I chose to have my countdown refresh every one second. I created a variable then used the setInterval method to set the countdown interval to be one second. Inside of the function will be the calculations that will determine the time differential between today's date and the desired countdown date.</li>
+  <li> Making sure to put this code as the function of the countdown interval, define today's date using the new Date() object as we did in the first step. Then use the .getTime() method to calculate the number of milliseconds at this current moment in time.</li>
+  <li> Then, create a variable that subtracts the number of milliseconds of the current moment in time from the number of milliseconds of the desired countdown date. It will look as if the new variable is equal to the variable that represents today's time being subtracted from the variable that represents the countdown day's time.</li>
+  <li> Because the difference between the desired date and current date are currently in millisecond format, we must convert their values into days, hours, minutes, and seconds. I found these exact equations on a stackoverflow discussion page. We will create a variable for each of the different lengths of time: one for days, one for hours, etc. Using the Math.floor method, our variable will return an integer. We will divide our difference by their value during one day. For example, we will divide the difference of hours by 1000 multiplied by sixty and multiplied by sixty again. This is because there are 1000 milliseconds in one second, multiplied by sixty seconds in one minute, multiplied by sixty minuted in one hour, then the modulus of this new value to calculate the number of minutes for that specific hour.</li>
+  <li> Repeat the above step for days, hours, minutes, and seconds. </li>
+  <li> Now, we will use the document.getElementByID method to display the value of the above variables added together. </li>
+  <li> You now have a functioning countdown timer. As an optional step, you can have your timer turn a different color when it has reached your desired date using an if statement. You should create a variable representing your countdown timer display and change the style of that variable to be your desired color when the time difference is below zero. </li>
+</ol>
+<center>
+    <img src="code.png" alt="code.png" class="png">
+</center>
